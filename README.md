@@ -37,7 +37,7 @@ While this version uses a pretrained YOLO model, future updates will focus on:
 ## How to Run
 
 1. Clone the repository:
-git clone https://github.com/yourusername/cv-object-detection-realtime.git
+git clone https://github.com/Maxlionheart/cv-object-detection-realtime.git
 
 2. Create a virtual environment:
 python -m venv .venv
