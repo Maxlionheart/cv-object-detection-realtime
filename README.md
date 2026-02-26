@@ -32,3 +32,19 @@ While this version uses a pretrained YOLO model, future updates will focus on:
 -Save output video
 -Raspberry Pi deployment
 -Connect detection output to decision-making logic
+
+
+## How to Run
+
+1. Clone the repository:
+git clone https://github.com/yourusername/cv-object-detection-realtime.git
+
+2. Create a virtual environment:
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+4. Run:
+python detect_webcam.py
