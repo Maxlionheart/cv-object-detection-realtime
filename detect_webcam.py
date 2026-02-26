@@ -16,7 +16,7 @@ def main():
         results = model(frame, verbose=False)
         annotated = results[0].plot()
 
-        cv2.imshow("Laptop Object Detection (press q to quit)", annotated)
+        cv2.imshow("cv-object-detection-realtime (press q to quit)", annotated)
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
