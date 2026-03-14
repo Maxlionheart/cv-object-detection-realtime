@@ -13,25 +13,24 @@ The system captures live webcam frames and performs neural network inference to 
 This project is part of my practical learning journey alongside CS50AI (Harvard’s Introduction to Artificial Intelligence).
 
 While this version uses a pretrained YOLO model, future updates will focus on:
+- Understanding model architecture and inference flow
+- Modifying detection logic
+- Experimenting with filtering specific classes
+- Connecting computer vision concepts to AI theory
+- Exploring robotics integration in future iterations
 
--Understanding model architecture and inference flow
--Modifying detection logic
--Experimenting with filtering specific classes
--Connecting computer vision concepts to AI theory
--Exploring robotics integration in future iterations
+## 🛠️ Technologies Used
+- Python
+- Ultralytics YOLOv8
+- OpenCV
+- Git & GitHub
 
-##🛠️ Technologies Used
--Python
--Ultralytics YOLOv8
--OpenCV
--Git & GitHub
-
-##📌 Future Improvements
--Add class filtering (e.g., detect only persons)
--Display confidence scores
--Save output video
--Raspberry Pi deployment
--Connect detection output to decision-making logic
+## 📌 Future Improvements
+- Add class filtering (e.g., detect only persons)
+- Display confidence scores
+- Save output video
+- Raspberry Pi deployment
+- Connect detection output to decision-making logic
 
 
 ## How to Run
